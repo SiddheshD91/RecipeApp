@@ -1,0 +1,18 @@
+.container {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: wheat;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.text {
+  margin: 20px;
+  width: 80%;
+  padding: 5px;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-radius: 10px;
+}
