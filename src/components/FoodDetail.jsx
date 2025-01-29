@@ -13,7 +13,7 @@ export default function FoodDetail({ foodId }) {
     }
     fetchFood();
   }, [foodId]);
-  console.log(food);
+  // console.log(food);
   return (
     <div className={styles.card}>
       <h1 className={styles.title}>FoodName: {food.title}</h1>
